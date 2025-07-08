@@ -69,11 +69,12 @@
         </section>
         <section class="section" id="chefs-section">
             <div class="container">
-                <h2 class="chefs-title section-title">Наші найкращі <span class="accent">шеф -кухарі</span></h2>
+                <h2 class="chefs-title section-title centered">Наші найкращі <span class="accent">шеф -кухарі</span>
+                </h2>
                 <ul>
                     <li>
                         <article>
-                            <img src="./images/nasya-chef.jpg" alt="Настя">
+                            <img class="chef-photo" src="./images/nasya-chef.jpg" alt="Настя">
                             <h3 class="chef-title">Настя</h3>
                             <p>Привіт, я Настя!</p>
                             <p>Вже 10 років, я втілюю у життя цікаві та смачні ідеї.</p>
@@ -82,7 +83,7 @@
                     </li>
                     <li>
                         <article>
-                            <img src="./images/vlad_chefs.jpg" alt="Влад">
+                            <img class="chef-photo" src="./images/vlad_chefs.jpg" alt="Влад">
                             <h3 class="chef-title">Влад</h3>
                             <p>Привіт, я Влад!
 
@@ -99,7 +100,12 @@
         </section>
         <section class="section" id="formats-section">
             <div class="container">
-                <h2 class="formats-title section-title">Формати</h2>
+                <h2 class="formats-title section-title centered">Формати</h2>
+                <button class="carousel-button" type="button">
+                    <svg width="16" height="16">
+                        <use href="/images/icons.svg#icon-arrow"> </use>
+                    </svg>
+                </button>
                 <ul class="formats-list">
                     <li class="formats-item">
                         <article class="format-card">
@@ -139,6 +145,11 @@
                         </article>
                     </li>
                 </ul>
+                <button class="carousel-button" type="button">
+                    <svg width="16" height="16">
+                        <use href="/images/icons.svg#icon-arrow"> </use>
+                    </svg>
+                </button>
             </div>
         </section>
         <section class="section" id="contacts-section">
@@ -176,10 +187,18 @@
                             вул. СічовихСтрільців 54
                         </a></li>
                     <li>
-                        <a href="#"><!-- facebook --></a>
+                        <a href="#">
+                            <svg class="adress-icon" width="32" height="32">
+                                <use href="/images/icons.svg#icon-facebook"> </use>
+                            </svg>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><!-- instagram --></a>
+                        <a href="#">
+                            <svg class="adress-icon" width="32" height="32">
+                                <use href="/images/icons.svg#icon-instagram"> </use>
+                            </svg>
+                        </a>
                     </li>
                     <a class="adress-link" href="#" target="_blank">Політика конфеденційності</a>
                     <p class="adress-copyright">@copy 2022 Дані захищені</p>
