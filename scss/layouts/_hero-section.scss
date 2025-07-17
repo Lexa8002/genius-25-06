@@ -12,13 +12,10 @@
   background-position: center top;
   background-size: cover;
   /* background: url(/images/hero-section-background.jpg) no-repeat center/top cover; */
-}
-.hero-title {
-  text-align: center;
-  color: var(--color-primary-light);
-  font-size: 128px;
-  font-weight: 900;
-}
-.hero-title .accent {
-  color: var(--color-brand-normal);
+  &__title {
+    text-align: center;
+    color: var(--color-primary-light);
+    font-size: 128px;
+    font-weight: 900;
+  }
 }
