@@ -14,11 +14,6 @@
     #31261a 100%
   );
   overflow: hidden;
-  transition: transform 0.3s;
-
-  &:hover {
-    transform: scale(1.05);
-  }
 
   &__image {
     position: absolute;
